@@ -20,7 +20,7 @@ namespace ConverterAPI
     public static class Function1
     {
         //blob connection string
-        static string connectionString = "DefaultEndpointsProtocol=https;AccountName=readfilepk;AccountKey=YTOhphkTaGQ+RrVNsL0iQk/+RPvZTwBqZzjVcWide3rhPfkUW5BhgY61h8v7f+f+oY6QA+NRiaGcEUyglmK9GA==;EndpointSuffix=core.windows.net";
+        static string connectionString = "DefaultEndpointsProtocol=https;AccountName=readfilepk;AccountKey=YTOhph+hsdewhtQk+RPvZTwBqZzjVcWide3rhPfkUW5BhgY61h8v7f+f+oY6QA+NRiaGcEUyglmK9GA==;EndpointSuffix=core.windows.net";
 
         [FunctionName("converttocsv")]
         public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)]HttpRequestMessage req, TraceWriter log)
